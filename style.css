@@ -1,0 +1,115 @@
+body{
+    background-color: #F1FAEE;
+    margin-left: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: #F1FAEE;
+    box-shadow: 0 4px 4px -2px #edededaf;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top:0px;
+    z-index: 1000;
+}
+
+.left_head{
+    font-size: 18px;
+    color: #1D3557;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-left: 20px;
+    position: relative;
+    top: 20px;
+}
+#head3{
+    font-size: 27px;
+    color: #1D3557;
+    font-style: oblique;
+    font-weight: 600;
+    display: inline-block;
+    position: absolute;
+    left: 42%;
+}
+
+#linkedin{
+    font-size: 30px;
+    text-decoration: none;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+main{
+    margin-top: 100px;
+}
+
+#main_header{
+    height:200px;
+    color:#1D3557;
+}
+
+#main_header_h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+#main_header_p{
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container1{
+    height : 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bio{
+    background-color: #1D3557;
+    width:500px;
+    height:400px;
+    display: inline-block;
+    transition: all;
+    transition-duration: .3s;
+    transition-timing-function: linear;
+}
+
+.bio:hover{
+    width : 550px;
+    height:450px;
+}
+
+.container1_a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#education{
+    background-image: url('/images/education.png');
+    background-size: cover;
+}
+
+#experience{
+    background-image: url('/images/experience.png');
+    background-size: cover;
+}
+
+#project{
+    background-image: url('/images/projects.png');
+    background-size: cover;
+}
+
+#coding{
+    background-image: url('/images/coding.png');
+    background-size: cover;
+}
