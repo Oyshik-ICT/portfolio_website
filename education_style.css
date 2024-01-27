@@ -1,0 +1,80 @@
+body{
+    background-image: url('/images/education_bac.jpg');
+    background-size: contain;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,71,1) 46%, rgba(252,176,69,1) 100%);
+    box-shadow: 0 4px 4px -2px #edededaf;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top:0px;
+    z-index: 1000;
+}
+
+#head_div{
+    font-size: 27px;
+    font-style: oblique;
+    font-weight: 600;
+    color: floralwhite;
+    text-align: center;
+    position: relative;
+    top: 18px;
+}
+
+main{
+    margin-top:100px;
+}
+
+.education{
+    /* background-color: aqua; */
+    height: 500px;
+    position: relative;
+    margin-left: 10px;
+}
+
+#varsity_h2{
+    font-style: italic;
+}
+
+#varsity_gra{
+    margin-top: 10px;
+}
+
+#varsity_a{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 35%;
+}
+
+#varsity_pic{
+        height: 130px;
+    }
+
+#varsity_left{
+    width:50%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 40%;
+}
+
+#varsity_p{
+    width : 50%;
+    height: 47%;
+    position: relative;
+    left : 40%;
+    /* background: rgb(230,57,70);
+    background: linear-gradient(90deg, rgba(230,57,70,1) 0%, rgba(168,218,220,1) 47%, rgba(69,123,157,1) 100%); */
+    text-align: left;
+    line-height: 28px;
+    font-size: 18px;
+    background: linear-gradi
+}
+
