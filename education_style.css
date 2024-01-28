@@ -1,9 +1,9 @@
 body{
-    background-image: url('/images/education_bac.jpg');
-    background-size: contain;
     margin-left: 0px;
     margin-right: 0px;
     font-family: 'Times New Roman', Times, serif;
+    background: rgb(230,57,70);
+    background: linear-gradient(90deg, rgba(230,57,70,1) 0%, rgba(168,218,220,1) 50%, rgba(69,123,157,1) 90%);
 }
 
 header{
@@ -50,7 +50,7 @@ main{
     display: inline-block;
     vertical-align: top;
     position: relative;
-    left: 35%;
+    left: 15%;
 }
 
 #varsity_pic{
@@ -62,19 +62,50 @@ main{
     display: inline-block;
     vertical-align: top;
     position: relative;
-    left: 40%;
-}
+    left: 25%;
+} 
 
 #varsity_p{
     width : 50%;
-    height: 47%;
-    position: relative;
-    left : 40%;
-    /* background: rgb(230,57,70);
-    background: linear-gradient(90deg, rgba(230,57,70,1) 0%, rgba(168,218,220,1) 47%, rgba(69,123,157,1) 100%); */
+    height: 50%;
     text-align: left;
     line-height: 28px;
     font-size: 18px;
-    background: linear-gradi
+    border: thick double snow;
+    position: relative;
+    top: 40px;
+    padding: 10px;
+    text-align: justify;
 }
 
+#school{
+    height: 540px;
+}
+
+#school_pic{
+    height: 130px;
+}
+
+#school_a{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 25%;
+}
+
+#school_p{
+    width : 50%;
+    height: 55%;
+    text-align: left;
+    line-height: 28px;
+    font-size: 18px;
+    border: thick double snow;
+    position: relative;
+    top: 40px;
+    padding: 10px;
+    text-align: justify;
+}
+
+footer{
+    height: 20px;
+}
