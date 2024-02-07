@@ -1,0 +1,50 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('/images/project_bac.jpg');
+    background-size: cover;
+}
+
+.container{
+    /* background-color:aqua; */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.project_details{
+    color: cornsilk;
+    width: 600px;
+    height: 230px;
+    display: inline-block;
+    border: 2px solid cornsilk;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+a{
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
